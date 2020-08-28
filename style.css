@@ -1,0 +1,39 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+font-family: abigail, sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ h1 { 
+ font-size: 4.5rem;
+ color: #57f07a;
+ text-align: center;
+ }
+
+.buffer {
+	height: 1rem;
+}
+.btn {
+	font-weight: 400;
+	font-size: 1.1rem;
+	border-radius: 300px;
+	border-color: transparent;
+}
+ .btn-xl{
+ 	 padding: 1rem 2.5rem
+ }
+
+.btn-primary {
+	background-color: green;
+	border-color: white;
+	max-width: 400px;
+	text-align: center;
+}
+.btn-primary:hover {
+	background-color: #9BA17B;
+	border-color: transparent;
